@@ -25,7 +25,7 @@ data.iloc[1:4].plot.pie(figsize=(10,10),subplots=True,fontsize=10,autopct='%.2f'
 
 data.iloc[0:].plot.pie(subplots=True,figsize=(5,5),autopct="%.2f")
 
-# Scatter plot- compairing two parameter of your dataset use scatter plot, but not only two parameter maximum 3-parameters will campair possible
+# Scatter plot- comparing two parameter of your dataset use scatter plot, but not only two parameter maximum 3-parameters will campair possible
 data.plot.scatter(x='sepal_length',y='petal_length',c='g')
 
 data.plot.scatter(x='petal_length',y='petal_width',c='sepal_width')
