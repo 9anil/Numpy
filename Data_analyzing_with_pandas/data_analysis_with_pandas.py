@@ -214,5 +214,4 @@ positive_rate.plot(title="Positive Rate")
 
 # Plotsome month-wise data using bar chart to visualize the trend at a higher level
 covid_month_wise.new_cases.plot(kind='bar')
-
 covid_month_wise.new_tests.plot(kind='bar')
